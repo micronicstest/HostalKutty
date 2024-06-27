@@ -1,0 +1,182 @@
+body {
+    background-color: white ;
+    padding: 0 100px;
+}
+.general {
+    background-color: #515151 ;
+    padding: 0 80px;
+}
+.img-superior {
+    width: 100%;
+    height: 100%;
+}
+.menu {
+    background-color: #00FF0000  ;
+    margin-top: -3.8%;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu ul li {
+    margin: 0;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.menu ul li a:hover {
+    background-color: #575757;
+}
+.banner{
+    width: 100%;
+    height: auto;
+}
+#imagenes{
+    width: auto;
+    height: 350px;
+    margin-bottom: 0;
+    display: block;
+    padding-inline: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.container {
+    background-color: #84F5F0;
+
+}
+.container-1 {
+    display: flex;
+    gap: 40px;
+}
+.opciones {
+    background-color: #BECAC9 ;
+    display: block;
+    width: 105%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    list-style: none;
+    padding-left: 6px;
+    padding-right: 30px;
+    margin-left: -25px;
+}
+.title  {
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.publicidad {
+    width: 124%;
+    margin-left: -25px;
+    height: auto;
+}
+.container-2 {
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    margin-right: 27px;
+}
+h6 {
+    font-size: 30px;
+    margin: 20px auto;
+    color: red;
+}
+.linea-1 {
+    background-color: #852822;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.linea-2 {
+    background-color: #852822;
+    text-align: center;
+    font-size: 25px;
+}
+.texto {
+    padding: 0 20px;
+    text-align: justify;
+}
+.info {
+    text-align: justify;
+    margin: 10px 50px;
+    font-size: 15px;
+
+}
+.titulo-habitacion {
+    font-size: 30px;
+    margin: 10px auto;
+}
+.titulo-principal {
+    text-align: center;
+    margin-top: 30px;
+}
+hr {
+    height: 10px;
+    background-color: #4d1814; /* Color de la línea */
+}
+.redesSociales {
+    width: 25%;
+    height: 25%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.contacto { 
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    background-color: white;
+}
+.contacto-2 {
+    display: flex;
+    gap: 190px;
+}
+.infoContacto {
+    margin: 20px 50px;
+}
+.contactoPersonal {
+    text-align: left;
+}
+.info-contacto {
+    background-color: white;
+}
+.service {
+    display: block;
+
+}
+.service-1 {
+    display: flex;
+    gap: 80px;
+}
+.imgService {
+    width: 450px;
+    margin: 10px 10px;
+}
+.text-service {
+    margin-top: 120px;
+    text-align: justify;
+    margin-left: 50px;
+}
+@media (max-width: 600px) {
+    .menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu ul li {
+        border-top: 1px solid #444;
+    }
+
+    .menu ul li a {
+        padding: 10px;
+    }
+}
